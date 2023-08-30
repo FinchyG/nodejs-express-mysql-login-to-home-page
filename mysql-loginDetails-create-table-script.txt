@@ -1,0 +1,8 @@
+CREATE TABLE loginDetails(
+    username varchar(50) PRIMARY KEY,
+    password varchar(50) NOT NULL
+);
+
+INSERT INTO loginDetails (username, password) VALUES ("user1", "password1");
+
+INSERT INTO loginDetails (username, password) VALUES ("user2", "password2");
